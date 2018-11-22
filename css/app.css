@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* CSS Document */
+			  
+				  
+ 
+	
+	/* Standard CSS -------------------------------------------
+	-------------------<?php include 'includes/header.html';?>
+----------------------------------------*/
+	
+
+body {
+		width: 100%;
+		height: 100%;
+	    margin: 0 auto;
+			text-align: center;
+			background-image: linear-gradient(to bottom right,#662D91, rgb(49, 12, 78));
+	    font-family: 'Didact Gothic', sans-serif;
+	 
+	}
+
+	.container {
+		
+	}
+
+	.logo {
+		width: 30%;
+		float: left;
+		margin: 30px;
+	}
+
+	.hidden {
+		display: none;
+	}	
+
+	.fullWidth {
+	  width: 100%;
+	}
+
+	.row {
+	  margin: 0 0 0 0;
+	  max-width: 100%;
+	}
+
+	.title {
+	  color: black;
+	  text-transform: uppercase;
+	  font-weight: bolder;
+	  margin-top: 20px;
+	  margin-bottom: 0px;
+	}
+
+	.subTitle {
+		  margin-bottom: 20px;
+		  margin-top: 0px;
+
+	}
+
+	.recentWork {
+		margin-bottom: 30px;
+	}
+
+	.recentWork img {
+		 border-radius: 5px;
+	}
+
+	.banner {
+		width: 100%;
+	}
+
+	.small-12 {
+		margin-bottom: 20px;
+	}
+
+
+
+/* Navigation -------------------------------------------
+	-----------------------------------------------------------*/
+
+
+
+
+
+
+/* Footer -------------------------------------------
+-----------------------------------------------------------*/
+
+
+
+footer {
+  background: #387AB7;
+  bottom: 0;
+
+}
+
+
+footer li {
+	color: white;
+	display: inline-block;
+	margin: 10px;
+}
+
+footer i {
+	  color: white;
+	   font-size: 1.3rem;
+}
+
+footer ul {
+	margin: 0;
+}
+
+footer .fab:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
+
+
+
+	
+	
+	
+	
+	/* Media Queries -------------------------------------------
+	-----------------------------------------------------------*/
+
+
+
+	@media screen and (min-width: 320px) and (max-width: 640px) {
+			  
+	  .icon {
+		  padding: 10px;}
+
+	  header h2 {
+	  	font-size: 40px;
+	  }
+
+	  	header p {
+			font-size: 20px;
+		}
+
+		.masks {
+			margin-bottom: 20px;
+		}
+		
+
+		  }
+
+
+			
+
+@media screen and (min-width: 641px) and (max-width: 1025px) {
+		
+	   .icon {
+		  width: 160px;
+		  padding: 10px;
+		}
+
+		article {
+			height: 300px;
+		}
+
+		header h2 {
+			font-size: 35px;
+		}
+
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1326px) {
+
+
+	header h2 {
+			font-size: 40px;
+		}
+
+	}
+
+	@media screen and  (max-width: 1226px) {
+		#container { 
+			width: 95%;
+		}
+
+	}
+		
+	
+	 
+	
+	
+	        
+	
