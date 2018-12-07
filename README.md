@@ -31,6 +31,11 @@ $ cd AV_app
 
 And you’re done!
 
+## Proto-type Links:
+
+* https://xd.adobe.com/view/219af5c3-793c-4c9d-4062-3f2608e53618-57ab/ Mobile
+* https://xd.adobe.com/view/21ad2577-566e-4a2c-6f7d-a949b8a53c7f-579c/ Desktop
+
 ## Built With:
 
 * [Foundations](https://foundation.zurb.com/)
